@@ -17,3 +17,4 @@
  - [] Crear ErrorBoundary
  - [] Crear Store Global (Ver que herramienta usar, Toolkit, MobX, Jotai, Zustand) 
  - [] Agregar test unitarios (Jest, Testing Library)
+ - [] Crear CI/CD (run test, run lint, deploy)
