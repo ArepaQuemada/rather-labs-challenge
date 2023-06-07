@@ -1,5 +1,7 @@
 import { Student } from "./student.model";
 
+type Categories = "math" | "english" | "programming" | "english" | "science";
+
 export interface Course {
   id: number;
   name: string;
@@ -8,4 +10,5 @@ export interface Course {
   imageUrl: string;
   rating: number;
   students: Student[];
+  category: Categories;
 }
