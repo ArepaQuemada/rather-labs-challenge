@@ -11,6 +11,9 @@
   "env": {
     "browser": true
   },
+  "rules": {
+    "no-unused-vars": ["error", { "args": "none" }]
+  },
   "parserOptions": {
     "ecmaVersion": "latest"
   }
