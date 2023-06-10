@@ -1,4 +1,4 @@
-import { useMainPageCoursesContent } from "@src/hooks/store/useMainPageCoursesContent";
+import { useMainPageCoursesContent } from "@src/hooks/useMainPageCoursesContent";
 
 export default function Home() {
   const content = useMainPageCoursesContent();

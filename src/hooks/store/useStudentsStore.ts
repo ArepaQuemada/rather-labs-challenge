@@ -4,8 +4,8 @@ import { RootState } from "@src/store/store";
 import { Student } from "@src/models";
 
 export const useStudentsStore = () => {
-  const courses = useSelector(
-    (state: RootState) => state.coursesReducer.courses
+  const students = useSelector(
+    (state: RootState) => state.studentsReducer.students
   );
   const dispatch = useDispatch();
 
@@ -18,7 +18,7 @@ export const useStudentsStore = () => {
   };
 
   return {
-    courses,
+    students,
     addStudent: addStudentToStore,
     setStudent: setStudentsToStore,
   };

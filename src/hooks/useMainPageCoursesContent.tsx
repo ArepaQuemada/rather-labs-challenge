@@ -1,5 +1,5 @@
 import { CoursesList } from "@src/components/course-list/course-list";
-import { useCoursesStore } from "./useCoursesStore";
+import { useCoursesStore } from "./store/useCoursesStore";
 
 export const useMainPageCoursesContent = () => {
   const { courses } = useCoursesStore();

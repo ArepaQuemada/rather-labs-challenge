@@ -1,19 +1,21 @@
+import StudentsForm from "@src/components/forms/students/students-form";
+import { useStudentsStore } from "@src/hooks/store/useStudentsStore";
+import { FormState } from "@src/interfaces/students-form.interface";
+
 export default function CreateStudent() {
+  const { addStudent } = useStudentsStore();
+
+  const handleSubmit = (formState: FormState) => {
+    addStudent({
+      ...formState,
+      id: Date.now().toString(),
+      courses: [],
+    });
+  };
   return (
     <main>
       <h1>Create Student</h1>
-      <form>
-        <label htmlFor="name">Name</label>
-        <input id="name" name="name" type="text" />
-        <label htmlFor="email">Email</label>
-        <input id="email" name="email" type="text" />
-        <label htmlFor="phone">Phone</label>
-        <input id="phone" name="phone" type="text" />
-        {/**
-         * TODO: Definir elementos para cursos y campo fecha de nacimiento
-         */}
-        <button type="submit">Create</button>
-      </form>
+      <StudentsForm handleSubmit={handleSubmit} />
     </main>
   );
 }
