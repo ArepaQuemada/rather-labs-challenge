@@ -4,8 +4,10 @@ import Navbar from "../navbar/Navbar";
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Navbar />
-      {children}
+      <div className="grid md:grid-cols-9">
+        <Navbar />
+        <main className="md:col-span-6">{children}</main>
+      </div>
     </>
   );
 };

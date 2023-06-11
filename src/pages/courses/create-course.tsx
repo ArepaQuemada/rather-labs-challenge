@@ -10,8 +10,8 @@ export default function CreateCourse() {
   };
 
   return (
-    <main>
+    <>
       <CoursesForm handleSubmit={handleSubmit} />
-    </main>
+    </>
   );
 }

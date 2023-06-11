@@ -3,7 +3,7 @@ import { useMainPageCoursesContent } from "@src/hooks/useMainPageCoursesContent"
 export default function Home() {
   const content = useMainPageCoursesContent();
   return (
-    <main>
+    <>
       <h1>Home Page</h1>
       <section>
         <h2>Courses</h2>
@@ -14,6 +14,6 @@ export default function Home() {
         */}
         {content}
       </section>
-    </main>
+    </>
   );
 }
