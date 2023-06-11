@@ -8,7 +8,9 @@ export const useMainPageCoursesContent = () => {
   }
   return (
     <>
-      <CoursesList courses={courses} />
+      <div className="grid grid-cols-4">
+        <CoursesList courses={courses} />
+      </div>
     </>
   );
 };

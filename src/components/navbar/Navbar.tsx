@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-base-300 md:col-span-3 md:h-screen">
+    <nav className="bg-base-300 md:col-span-2 md:h-screen">
       <div className="mb-6">
         <span className="btn btn-ghost normal-case text-3xl italic">
           Mockup School Management
