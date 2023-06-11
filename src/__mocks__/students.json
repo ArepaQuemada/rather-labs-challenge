@@ -1,0 +1,16 @@
+{
+  "students": [
+    {
+      "id": "321",
+      "name": "John Doe",
+      "email": "j@email.com",
+      "phone": "123123123",
+      "courses": [
+        {
+          " id": "123"
+        }
+      ],
+      "birthdate": "19-01-2001"
+    }
+  ]
+}

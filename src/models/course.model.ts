@@ -8,5 +8,5 @@ export interface Course {
   description: string;
   imageUrl: string;
   category: Categories;
-  students: Student[];
+  students: Student["id"][];
 }
