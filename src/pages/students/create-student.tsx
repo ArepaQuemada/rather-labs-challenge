@@ -13,9 +13,9 @@ export default function CreateStudent() {
     });
   };
   return (
-    <main>
+    <>
       <h1>Create Student</h1>
       <StudentsForm handleSubmit={handleSubmit} />
-    </main>
+    </>
   );
 }
