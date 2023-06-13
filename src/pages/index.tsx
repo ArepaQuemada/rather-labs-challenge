@@ -29,7 +29,7 @@ export default function Home({ courses }: { courses: Course[] }) {
   return (
     <>
       <h1 className="text-3xl text-center mb-20">Courses</h1>
-      <section>
+      <section className="grid grid-cols-3 gap-3 justify-center">
         {/*
           TODO: Show all courses (add some sort of pagination / filters by category would be nice too)
           Click on course would nagitate to specific details page

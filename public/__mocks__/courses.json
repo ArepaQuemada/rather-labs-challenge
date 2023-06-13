@@ -11,6 +11,42 @@
           "id": "321"
         }
       ]
+    },
+    {
+      "id": "123",
+      "name": "Algebra",
+      "description": "Description for Algebra course",
+      "imageUrl": "https://www.educaciontrespuntocero.com/wp-content/uploads/2022/04/cursos-de-algebra.jpg",
+      "category": "math",
+      "students": [
+        {
+          "id": "321"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Algebra",
+      "description": "Description for Algebra course",
+      "imageUrl": "https://www.educaciontrespuntocero.com/wp-content/uploads/2022/04/cursos-de-algebra.jpg",
+      "category": "math",
+      "students": [
+        {
+          "id": "321"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Algebra",
+      "description": "Description for Algebra course",
+      "imageUrl": "https://www.educaciontrespuntocero.com/wp-content/uploads/2022/04/cursos-de-algebra.jpg",
+      "category": "math",
+      "students": [
+        {
+          "id": "321"
+        }
+      ]
     }
   ]
 }
