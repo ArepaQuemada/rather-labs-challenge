@@ -1,5 +1,6 @@
 import { StudentsListProps } from "@src/interfaces/students-list.interface";
 import { User } from "react-feather";
+
 const StudentList = ({ students }: StudentsListProps) => {
   return (
     <>
