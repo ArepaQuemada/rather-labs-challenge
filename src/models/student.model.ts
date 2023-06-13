@@ -5,6 +5,6 @@ export interface Student {
   name: string;
   email: string;
   phone: string;
-  courses: Course["id"][];
+  courses: Pick<Course, "id" | "name">[];
   birthdate: string;
 }
